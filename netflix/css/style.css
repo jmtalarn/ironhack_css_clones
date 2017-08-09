@@ -1,6 +1,14 @@
-body{
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
+html, body{
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+}
+
 header {
   background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url('../img/background-netflix-header.jpg');
   height: 100vh;
