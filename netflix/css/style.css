@@ -54,3 +54,73 @@ nav .signin{
 .pitch__subtitle{
   margin: 0 0 0 0.5em;
 }
+.btn{
+  font-size: 14px;
+  letter-spacing: 1.9px;
+  font-weight: 400;
+  margin: .5em .5em .5em 0;
+  padding: 12px 2em;
+  color: #fff;
+  background-color: #e50914;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: middle;
+  font-family: Arial, sans-serif;
+  border-radius: 2px;
+  user-select: none;
+  text-align: center;
+  border: 0;
+}
+nav .signin:hover, .btn:hover {
+  background: #f40612;
+}
+#features > nav {
+  padding-top: 35px;
+  background-color: #141414;
+  border-bottom: 2px solid #3d3d3d;
+}
+
+#features > nav a {
+  text-decoration: none;
+  text-align: center;
+  vertical-align: top;
+  font-weight: bold;
+  color: #777;
+  height: 125px;
+  line-height: 20px;
+}
+
+#features > nav a:hover {
+  color: white;
+}
+
+#features > nav a:hover img {
+  opacity: 1;
+}
+#features > nav a img {
+  height: 49px;
+  opacity: 0.5;
+}
+
+#features > nav a h2 {
+  margin: 10px 0 0;
+  font-size: 1em;
+}
+.columns {
+  display: flex;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.size-80 {
+  width: 80%;
+}
