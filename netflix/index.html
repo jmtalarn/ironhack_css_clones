@@ -25,7 +25,7 @@
   <div id="features">
     <nav>
       <div class="center columns size-80">
-        <a class="column" href="#">
+        <a class="column is-selected" href="#" data-id="cancelanytime">
           <img alt="Cancel anytime" src="img/cancel.svg"/>
           <h2>
             No commitments
@@ -34,14 +34,14 @@
           </h2>
         </a>
 
-        <a class="column" href="#">
+        <a class="column" href="#" data-id="watchanywhere">
           <img alt="Watch anywhere" src="img/watchanywhere.svg"/>
           <h2>
             Watch anywhere
           </h2>
         </a>
 
-        <a class="column" href="#">
+        <a class="column" href="#" data-id="pickprice">
           <img alt="Pick your price" src="img/pickprice.svg"/>
           <h2>
             Pick your price
@@ -49,7 +49,21 @@
         </a>
       </div>
     </nav>
+    <article>
+      <section class="is-selected" data-id="cancelanytime">
+        About feature 1
+      </section>
+
+      <section data-id="watchanywhere">
+        About feature 2
+      </section>
+
+      <section data-id="pickprice">
+        About feature 3
+      </section>
+    </article>
   </div>
+  <script src="js/app.js"></script>
 </body>
 
 </html>

@@ -89,7 +89,13 @@ nav .signin:hover, .btn:hover {
   height: 125px;
   line-height: 20px;
 }
-
+#features > nav a.is-selected {
+  border-bottom: 5px solid #e50914;
+  color: white;
+}
+#features > nav a.is-selected  img{
+  opacity: 1;
+}
 #features > nav a:hover {
   color: white;
 }
@@ -105,6 +111,15 @@ nav .signin:hover, .btn:hover {
 #features > nav a h2 {
   margin: 10px 0 0;
   font-size: 1em;
+}
+
+#features > article > section {
+  display: none;
+  padding: 40px 0;
+}
+
+#features > article > section.is-selected {
+  display: block;
 }
 .columns {
   display: flex;
