@@ -71,6 +71,9 @@ nav .signin{
   text-align: center;
   border: 0;
 }
+.btn-large {
+  padding: 18px 20px;
+}
 nav .signin:hover, .btn:hover {
   background: #f40612;
 }
@@ -112,7 +115,68 @@ nav .signin:hover, .btn:hover {
   margin: 10px 0 0;
   font-size: 1em;
 }
+#features #watchanywhere h2 {
+  font-size: 19px;
+  padding-right: 1em;
+  margin: 0 0 20px;
+}
 
+#features #watchanywhere > div:first-child {
+  margin-bottom: 60px;
+}
+
+#features #watchanywhere p {
+  color: #999;
+}
+#features #pickprice h2 {
+  font-size: 22px;
+  display: inline;
+  margin: 0 40px 0 0;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+table, thead, tbody {
+  border-collapse: collapse;
+}
+
+thead {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+thead th {
+  padding: 10px;
+}
+
+tbody {
+  color: #999;
+}
+
+tbody td {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #222;
+}
+
+tbody td:first-child {
+  text-align: left;
+}
+
+#features > article {
+  margin-bottom: 120px;
+}
+#features > article h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 60px 0 20px;
+}
 #features > article > section {
   display: none;
   padding: 40px 0;
@@ -124,18 +188,31 @@ nav .signin:hover, .btn:hover {
 .columns {
   display: flex;
 }
-
+#features > article img {
+  max-width: 100%;
+}
 .column {
   display: block;
   flex-basis: 0;
   flex-grow: 1;
   flex-shrink: 1;
 }
-
+.column.is-narrow {
+  flex: none;
+}
 .center {
   margin: 0 auto;
 }
 
 .size-80 {
   width: 80%;
+}
+.size-70 {
+  width: 70%;
+}
+.size-90 {
+  width: 90%;
+}
+.text-center {
+  text-align: center;
 }

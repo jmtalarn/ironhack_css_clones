@@ -12,7 +12,7 @@
         .filter(
           (tab, i) => tab.dataset.id === that.dataset.id
         )
-        .forEach(x=>x.className +='is-selected');
+        .forEach(x=>x.className +=' is-selected');
     });
   });
 })();
