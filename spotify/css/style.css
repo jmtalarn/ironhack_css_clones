@@ -19,12 +19,31 @@ body {
   color: #c1c3c6;
 }
 .nav>li>a:focus,
+.nav>li.alternate>a:hover,
 .nav>li>a:hover {
   background-color: inherit;
   color: #1db954; /*color: #9bf0e1;*/
 
 }
+.bg-main {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(50deg, #ff4169 0, #7c26f8 100%);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  /* CURRENT BACKGROUND background-color: #f037a5;
+  background: linear-gradient(#f037a5 -50%,#fae62d 120%);*/
+}
 
+.bg-main-img {
+  display: block;
+  background-image: url('../img/bg-albums.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
 .nav .divider {
   background-color: #d9dadc;
   width: 1px;
