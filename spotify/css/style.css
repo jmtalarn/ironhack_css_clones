@@ -356,3 +356,115 @@ p.legal a:hover {
 .nexus img {
   max-width: 100%;
 }
+.footer {
+  background-color: black;
+  color: white;
+  padding: 80px 0 50px;
+  text-align: left;
+}
+
+.footer-highlight-aquamarine a {
+  color: white;
+}
+
+.footer-highlight-aquamarine a:hover {
+  color: #9bf0e1;
+}
+
+.footer-logo a {
+  display: block;
+  width: 132px;
+  height: 40px;
+  font: 0/0 a;
+  color: transparent;
+  border: 0;
+  background-image: url('../img/logo.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 50px;
+}
+
+.footer .nav-title {
+  color: #919496;
+  font-size: 12px;
+  letter-spacing: .08em;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.footer .nav li a {
+  padding: 3px 0;
+  margin: 0 0 12px;
+}
+
+.col-social {
+  margin-top: 20px;
+}
+
+.footer .col-social ul {
+  float: right;
+}
+
+.footer .col-social li {
+  display: inline-block;
+}
+
+.footer .col-social li a {
+  padding: 15px;
+  margin-bottom: 12px;
+  background-color: #222326;
+  border-radius: 30px;
+}
+
+.footer .col-social a:hover {
+  background-color: #222326;
+}
+
+.col-social a img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer .nav-small a {
+  color: #919496;
+}
+
+.footer .nav-small li a {
+  float: left;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 12px;
+  margin: 0;
+}
+
+.row-small {
+  margin-top: 100px;
+}
+
+.footer .nav-small li:first-child a {
+  padding-left: 0;
+}
+
+.flag-icon-us {
+    background-image: url('https://sp-bootstrap.global.ssl.fastly.net/8.0.0/images/flags/us.svg');
+}
+
+.flag-icon {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  font-size: 18px;
+  height: 1em;
+  width: 1.33333333em;
+}
+
+.market, .copyright {
+  color: #919496;
+  font-size: 12px;
+}
+
+a.market {
+  color: #919496;
+  text-decoration: none;
+}
