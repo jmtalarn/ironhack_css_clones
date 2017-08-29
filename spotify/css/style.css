@@ -262,3 +262,97 @@ h3 {
   border-bottom: 1px solid white;
   text-decoration: none;
 }
+.devices-container {
+  margin-top: -350px;
+  margin-bottom: -620px;
+  transform: rotate(30deg) translate3d(0,40px,0);
+}
+
+.grid-overflow {
+  margin-right: -100%;
+  float: left;
+}
+.jumbotron h1 {
+  font-weight: 900;
+}
+.jumbotron-subscriptions {
+  padding: 150px 0 0;
+  text-align: left;
+}
+
+.jumbotron-subscriptions .btn {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.price-title {
+  float: left;
+  margin: 0;
+}
+
+.price {
+  float: right;
+  margin: 0 0 12px;
+}
+
+.month {
+  font-size: 20px;
+}
+
+.details-subscriptions {
+  border: 1px solid white;
+  border-left: 0;
+  border-right: 0;
+  padding: 16px 0;
+  padding-left: 0;
+  list-style: none;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.details-subscriptions {
+  font-size: 24px;
+}
+
+.tour-variation p:first-child {
+  float: left;
+}
+
+.tour-variation p:last-child {
+  float: right;
+}
+
+.tour-variation a {
+  color: #9bf0e1;
+  text-decoration: none;
+}
+
+.tour-variation a:hover {
+  color: #42e3c6;
+}
+
+p.legal {
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+p.legal a {
+  text-decoration: underline;
+}
+
+p.legal a:hover {
+  color: #42e3c6;
+}
+
+.nexus {
+  width: 458px;
+  height: 873px;
+  padding: 60px 24px 0 18px;
+  background: url('../img/nexus-klein-purple.png') no-repeat;
+  background-size: cover;
+  margin-bottom: -50%;
+}
+
+.nexus img {
+  max-width: 100%;
+}
