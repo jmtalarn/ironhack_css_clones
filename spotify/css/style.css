@@ -66,3 +66,71 @@ body {
   float: left;
   background-image: url('../img/logo.svg');
 }
+
+.text-white {
+  color: white;
+}
+
+.jumbotron {
+  background: none;
+  padding: 100px 0;
+  text-align: center;
+  margin: 0;
+
+}
+.jumbotron .container{ width: 100%;}
+.carousel-control.right, .carousel-control.left {
+  background: none;
+}
+.carousel-control.right span.icon-next:before, .carousel-control.left span.icon-prev:before{
+  font-size: 2em;
+}
+
+
+.btn {
+  padding: 17px 48px;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 18px 48px 16px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border-width: 0;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+}
+
+.jumbotron .btn {
+  margin: 20px 10px 30px;
+}
+
+.btn-solid {
+  color: #fff;
+  background-color: #7c25f8;
+}
+.btn-solid:hover {
+  color: #fff;
+  background-color: #6207e3;
+}
+
+.btn-lg {
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 21px 56px 19px;
+}
+
+.item h1 {
+  font-weight: 900;
+}
+
+.text-signup a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#carousel-tour {
+  margin-top: 50px;
+}
