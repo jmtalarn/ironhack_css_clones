@@ -1,6 +1,6 @@
 html, body {
   margin: 0;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
   min-width: 900px;
   line-height: 14px;
   font-size: 14px;
@@ -17,6 +17,7 @@ a {
 a:hover {
   color: #c45500;
 }
+
 #banner {
   background: #F6F6F6 url('../img/banner.jpg') no-repeat top left;
   height: 55px;
@@ -24,6 +25,7 @@ a:hover {
   min-width: 1000px;
   display: block;
 }
+
 header {
   background-color: #232f3e;
   height: 99px;
@@ -122,7 +124,8 @@ header {
   color: #777;
   display: block;
   font-size: 12px;
-  line-height: 33px;;
+  line-height: 33px;
+  ;
   margin-right: 21px;
   margin-left: 10px;
 }
@@ -221,7 +224,7 @@ header {
 #nav-main .nav-a:hover {
   border: 1px solid #4f5965;
   border-radius: 3px;
-  box-shadow: 0 1px 0 0 rgba(255,255,255,.5);
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .5);
 }
 
 #nav-main .nav-a span {
@@ -281,6 +284,7 @@ header {
   font-size: 16px;
   font-weight: 700;
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 1560px;
@@ -294,6 +298,7 @@ header {
 #promo .carousel {
   margin-top: -2px;
 }
+
 .col-lg-3 {
   padding: 0 7px;
 }
@@ -319,20 +324,20 @@ h3 {
 .btn {
   height: 29px;
   padding: 2px 20px;
-  background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
   border-width: 1px;
   border-style: solid;
   cursor: pointer;
   font-size: 13px;
-  box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .4) inset;
   border-radius: 3px;
 }
 
 .btn:hover {
   border-color: #a88734 #9c7e31 #846a29;
-  background: linear-gradient(to bottom,#f5d78e,#eeb933);
+  background: linear-gradient(to bottom, #f5d78e, #eeb933);
   color: #111;
 }
 
@@ -341,7 +346,7 @@ h3 {
 }
 
 #products .col {
-  background: rgba(19,19,4,.04);
+  background: rgba(19, 19, 4, .04);
   padding: 15px;
   min-height: 578px;
   position: relative;
@@ -432,6 +437,7 @@ h3 {
   font-size: 13px;
   color: #555;
 }
+
 footer a {
   color: #fff;
 }
@@ -454,6 +460,7 @@ footer .top a:hover {
 footer .top:hover {
   background: #485769;
 }
+
 footer .center {
   margin: 0 auto;
   max-width: 1080px;
@@ -545,4 +552,27 @@ footer .middle .flag-icon-us {
   width: 1.33333333em;
   margin-right: 7px;
   background-position: 0 2px;
+}
+
+footer .bottom {
+  background: #131a22;
+}
+
+footer .bottom ul {
+  margin-right: 0;
+}
+
+footer .bottom li {
+  margin-bottom: 15px;
+}
+
+footer .bottom a {
+  color: #ddd;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+footer .bottom a span {
+  color: #999;
+  font-size: 10px;
 }
