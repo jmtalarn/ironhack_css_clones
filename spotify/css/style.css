@@ -138,3 +138,59 @@ body {
 #carousel-tour {
   margin-top: 50px;
 }
+
+.text-klein-purple {
+  color: #7c25f8;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+a.btn-scroll {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+a.btn-scroll:hover {
+  color: #9bf0e1;
+}
+
+.btn-scroll-text {
+  text-transform: uppercase;
+  transition: color .3s ease-in-out;
+  display: block;
+  font-weight: 700;
+  letter-spacing: .1em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 1;
+  margin: 0 0 .75em;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.jumbotron-whats-on {
+  text-align: left;
+  padding: 180px 0;
+}
+
+.jumbotron p {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 1em 0;
+}
+
+.album-img {
+  padding: 0;
+}
