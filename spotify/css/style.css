@@ -81,7 +81,7 @@ body {
   text-align: center;
   margin: 0;
   position: relative;
-
+  overflow: hidden;
 }
 .jumbotron .container{ width: 100%;}
 .carousel-control.right, .carousel-control.left {
