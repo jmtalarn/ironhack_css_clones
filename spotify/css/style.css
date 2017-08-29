@@ -194,3 +194,31 @@ h3 {
 .album-img {
   padding: 0;
 }
+.text-aquamarine {
+  color: #9bf0e1;
+}
+
+.iphone {
+  width: 358px;
+  height: 730px;
+  padding: 80px 22px 0;
+  margin-bottom: 30px;
+  background: url('../img/iphone-klein-purple.png') no-repeat;
+  background-size: cover;
+}
+
+.iphone-1, .iphone-4 {
+  margin-top: 200px;
+}
+
+.devices-container {
+  margin-top: -350px;
+  margin-bottom: -620px;
+  margin-right: -100%;
+  float: left;
+  transform: rotate(30deg) translate3d(0,40px,0);
+}
+
+.devices-container img {
+  max-width: 100%;
+}
